@@ -14,7 +14,7 @@ function App() {
   const [selectedFile, setSelectedFile] = useState(null);
 
   const onDrop = (acceptedFiles) => {
-    // Check if the uploaded file is an Excel file.
+ 
     if (acceptedFiles.length === 1) {
       const file = acceptedFiles[0];
       if (file.type === 'application/vnd.ms-excel' || file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet') {
