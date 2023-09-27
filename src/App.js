@@ -74,6 +74,7 @@ function App() {
             <input
             
               type="file"
+              accept=".xlsx, .xls"
               onChange={(e) => readExcel(e)}
             />
           </div>
